@@ -21,7 +21,33 @@ I used wq to write quit the file. <br>
 
 Make a new user <br> 
 
+<img width="854" alt="Screenshot 2022-12-08 at 1 39 31 PM" src="https://user-images.githubusercontent.com/88999663/206573005-114d4a40-b2a6-46b7-9a10-75ece681507c.png">
+
+
+```
+man journalctl
+```
+```
+/boot
+```
+
 <img width="497" alt="Screenshot 2022-12-08 at 12 37 05 PM" src="https://user-images.githubusercontent.com/88999663/206562535-c5968702-55bd-4e6e-9b47-3d8938221454.png">
+
+```
+/priority
+```
+
+<img width="1388" alt="Screenshot 2022-12-08 at 1 42 30 PM" src="https://user-images.githubusercontent.com/88999663/206573449-44f26833-7a21-4751-ba35-52ceb9c9a43c.png">
+
+```
+/output
+```
+<img width="761" alt="Screenshot 2022-12-08 at 1 44 08 PM" src="https://user-images.githubusercontent.com/88999663/206573863-2745d49e-8c86-4c3d-ab2b-4468f017a799.png">
+
+```
+journalctl --output=json-pretty --boot=all 
+```
+<img width="995" alt="Screenshot 2022-12-08 at 1 47 05 PM" src="https://user-images.githubusercontent.com/88999663/206574235-b8bc58fa-010c-4fd0-9ed4-158c4f0b2876.png">
 
 ## Question 4 
 
