@@ -6,8 +6,7 @@
 Youre able to update most software using the command 
 <br>
 ```sudo apt update``` <br>
-or <br> 
-```sudo apt update```
+
 
 ## Question 2
 ### Fix the code in vim 
