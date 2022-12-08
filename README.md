@@ -64,12 +64,15 @@ Restart=on-failure
 WantedBy=multi-user.target
 ```
 ### Use the following code to start your service 
+
 ```sudo systemctl enable script_1.service
 ```
 Then use: <br>
+
 ```sudo systemctl start script_1.service
 ```
 To see the status use: <br>
+
 ```sudo systemctl status script_1.service
 ```
 ## Question 6
