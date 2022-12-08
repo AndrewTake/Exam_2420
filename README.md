@@ -5,4 +5,4 @@
 
 Youre able to update most software using the command 
 <br>
-sudo apt update
+```sudo apt update```
