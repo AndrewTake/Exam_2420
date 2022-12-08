@@ -10,8 +10,9 @@ Youre able to update most software using the command
 ## Question 2
 ### Fix the code in vim 
 
-I used o and i to start edits on the vim file. 
-I used x to make deletions within the file
-I used wq to write quit the file
+I used o and i to start edits on the vim file. <br>
+I used x to make deletions within the file. <br>
+I used wq to write quit the file. <br> 
 
-![Uploading Screenshot 2022-12-08 at 12.25.45 PM.png…]()
+<img width="744" alt="Screenshot 2022-12-08 at 12 25 45 PM" src="https://user-images.githubusercontent.com/88999663/206560943-2652570b-8575-4b9f-9a5f-86c5b546a4b6.png">
+
