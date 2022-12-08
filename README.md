@@ -107,3 +107,26 @@ To see the status use: <br>
 sudo systemctl status script_1.service
 ```
 ## Question 6
+
+```
+[Unit]
+Description=Timer for running service
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1d
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```
+sudo systemctl enable find_users.timer
+```
+```
+sudo systemctl start find_users.timer
+```
+```
+sudo systemctl enable find_users.timer
+```
+<img width="998" alt="Screenshot 2022-12-08 at 1 56 33 PM" src="https://user-images.githubusercontent.com/88999663/206575857-67c808b2-86ce-462d-86cd-9fba6a094821.png">
