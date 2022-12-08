@@ -51,7 +51,7 @@ create a vim file in <br>
 ```/etc/systemd/system```
 <img width="870" alt="Screenshot 2022-12-08 at 1 09 32 PM" src="https://user-images.githubusercontent.com/88999663/206567945-10d99c4f-1fd3-481f-a82a-16a0c9567f36.png">
 <br>
-Enter the following code <br>
+### Enter the following code <br>
 ```[Unit]
 Description=Find users
 
@@ -63,5 +63,13 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
-
+### Use the following code to start your service 
+```sudo systemctl enable script_1.service
+```
+Then use: <br>
+```sudo systemctl start script_1.service
+```
+To see the status use: <br>
+```sudo systemctl status script_1.service
+```
 ## Question 6
