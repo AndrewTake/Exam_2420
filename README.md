@@ -21,7 +21,7 @@ I used wq to write quit the file. <br>
 
 Make a new user <br> 
 
-<img width="854" alt="Screenshot 2022-12-08 at 1 39 31 PM" src="https://user-images.githubusercontent.com/88999663/206573005-114d4a40-b2a6-46b7-9a10-75ece681507c.png">
+<img width="497" alt="Screenshot 2022-12-08 at 12 37 05 PM" src="https://user-images.githubusercontent.com/88999663/206562535-c5968702-55bd-4e6e-9b47-3d8938221454.png">
 
 
 ```
@@ -31,7 +31,8 @@ man journalctl
 /boot
 ```
 
-<img width="497" alt="Screenshot 2022-12-08 at 12 37 05 PM" src="https://user-images.githubusercontent.com/88999663/206562535-c5968702-55bd-4e6e-9b47-3d8938221454.png">
+<img width="854" alt="Screenshot 2022-12-08 at 1 39 31 PM" src="https://user-images.githubusercontent.com/88999663/206573005-114d4a40-b2a6-46b7-9a10-75ece681507c.png">
+
 
 ```
 /priority
