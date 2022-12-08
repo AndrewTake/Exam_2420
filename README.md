@@ -25,6 +25,26 @@ Make a new user <br>
 
 ## Question 4 
 
+### Script 
+```#!/bin/bash
+
+users=$(grep ":[[:digit:]]\{4\}:" /etc/passwd)
+
+part4="$part4$(echo "$users" | awk -F: '{print $1": "$3": "$7}')\n\n"
+part4="$currentLogin logged in users:\n"
+part4="$part4$(who | awk '{print $1}')\n"
+
+echo -e "$part4" | tee /etc/motd
+```
+Script working: <br>
+<img width="695" alt="Screenshot 2022-12-08 at 12 54 07 PM" src="https://user-images.githubusercontent.com/88999663/206565962-b46e75b1-ede5-40dc-aafe-da4a950cce70.png">
+
+<br>
+Script saving to /etc/motd file <br>
+<img width="606" alt="Screenshot 2022-12-08 at 12 55 10 PM" src="https://user-images.githubusercontent.com/88999663/206566111-b207cc3e-4bfe-4eff-8f28-47d5e946746b.png">
+<img width="1437" alt="Screenshot 2022-12-08 at 12 55 00 PM" src="https://user-images.githubusercontent.com/88999663/206566127-cd035ec1-4088-4b96-875b-fcd22b4ed9dd.png">
+
+
 ## Question 5
 
 ## Question 6
