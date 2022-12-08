@@ -106,6 +106,9 @@ To see the status use: <br>
 ```
 sudo systemctl status script_1.service
 ```
+<img width="1014" alt="Screenshot 2022-12-08 at 2 06 38 PM" src="https://user-images.githubusercontent.com/88999663/206577404-10268015-1164-459d-870f-a036f5ed40dc.png">
+
+
 ## Question 6
 ### Timer
 
