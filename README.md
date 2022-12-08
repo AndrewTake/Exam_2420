@@ -53,7 +53,7 @@ create a vim file in <br>
 <br>
 Enter the following code <br>
 ```[Unit]
-Description=Find regular users and currently logged in users
+Description=Find users
 
 [Service]
 Type=simple
