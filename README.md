@@ -84,7 +84,7 @@ Description=Find users
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /path/to/find_users.sh
+ExecStart=/bin/bash /usr/final/script_1
 Restart=on-failure
 
 [Install]
