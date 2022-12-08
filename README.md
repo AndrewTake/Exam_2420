@@ -17,3 +17,10 @@ I used wq to write quit the file. <br>
 
 <img width="744" alt="Screenshot 2022-12-08 at 12 25 45 PM" src="https://user-images.githubusercontent.com/88999663/206560943-2652570b-8575-4b9f-9a5f-86c5b546a4b6.png">
 
+## Question 3
+
+## Question 4 
+
+## Question 5
+
+## Question 6
