@@ -19,6 +19,9 @@ I used wq to write quit the file. <br>
 
 ## Question 3
 
+Make a new user <br> 
+<img width="744" alt="Screenshot 2022-12-08 at 12 25 45 PM" src="https://user-images.githubusercontent.com/88999663/206562460-0f7f9f18-b67a-4008-b30d-da49cfa78af8.png">
+
 ## Question 4 
 
 ## Question 5
