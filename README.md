@@ -50,5 +50,18 @@ Script saving to /etc/motd file <br>
 create a vim file in <br>
 ```/etc/systemd/system```
 <img width="870" alt="Screenshot 2022-12-08 at 1 09 32 PM" src="https://user-images.githubusercontent.com/88999663/206567945-10d99c4f-1fd3-481f-a82a-16a0c9567f36.png">
+<br>
+Enter the following code <br>
+```[Unit]
+Description=Find regular users and currently logged in users
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /path/to/find_users.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
 
 ## Question 6
