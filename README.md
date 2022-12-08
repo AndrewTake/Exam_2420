@@ -84,7 +84,7 @@ Description=Find users
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /usr/final/script_1
+ExecStart=/bin/bash /home/andrew-1/final
 Restart=on-failure
 
 [Install]
